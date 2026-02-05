@@ -106,7 +106,7 @@ const IntroScene: React.FC = () => {
     <AnimatedBackground>
       <AbsoluteFill className="flex items-center justify-center">
         <div className="text-center" style={{ fontFamily }}>
-          {/* Line 1: Every browsing session should */}
+          {/* Line 1: Every browsing session has to */}
           <Sequence from={0} durationInFrames={90} layout="none">
             <TextAnimation
               key={`${hmrKey}-intro1`}
@@ -125,7 +125,7 @@ const IntroScene: React.FC = () => {
                 return tl;
               }}
             >
-              Every browsing session should
+              Every browsing session has to
             </TextAnimation>
           </Sequence>
 
